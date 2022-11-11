@@ -1,0 +1,120 @@
+@font-face{
+    font-family: Bebas;
+    src: url(../fonts/Bebas-Regular.otf);
+}
+body{
+    /* font-family: Bebas; */
+}
+img{
+    width: 100%;
+}
+h1{
+    font-family: Bebas;
+    font-size: 4rem;
+
+}
+footer{
+    background-image: url(./Images/Footer.jpg);
+    /* align-items: center; */
+    height: 80vh;
+    /* padding: 50% 0% !important; */
+}
+.topBanner{
+    background-image: url(./Images/Header\ Image.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topBanner .content{
+    margin: 20% 0%;
+}
+.topBanner .content h3{
+    font-size: 3rem;
+    margin: 2% 0%;
+}
+
+.topBanner .content h1{
+    font-family: Bebas;
+    margin: 2% 0%;
+    font-size: 5.5rem;
+}
+
+button{
+    padding: 2% 4%;
+    /* font-size: 3.5rem; */
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #b67f54;
+}
+.aboutUs .content div p{
+    border-left: ipx solid #b67f54;
+}
+.aboutUs-content{
+
+}
+.testimonial{
+    margin: 12% 0% 0% 0%;
+}
+.realEstate-content,.appDevelpment-content,.philanthropist-content,.technicalTrader-content{
+    margin: 30% 0%;
+}
+.aviation{
+    background-image: url(./Images/Aviation.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aviation-content {
+    margin: 30% 0%;
+}
+.aviation-content h1{
+    color: #b67f54;
+}
+.footer-content{
+    text-align: center;
+    margin: 20% 0% 0% 0%;
+
+}
+.footer-content form input{
+    width: 40%;
+    padding: 2% 2%;
+    
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.footer-content form button{
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.footer-content p{
+    margin: 3% 0%;
+}
+.overdImageRight{
+    position: absolute;
+    width: 40%;
+    background: #fff;
+    margin: 0% 0% 0% 0%;
+    padding: 1%;
+}
+.overdImageLeft{
+    position: absolute;
+    /* left: 10%; */
+    width: 40%;
+    background: #fff;
+    margin: 0% 0% 0% 43%;
+    padding: 1%;
+}
+
+.d-flex i{
+    margin-top: 5%;
+    padding: 10%;
+    margin-left: -110%
+}
